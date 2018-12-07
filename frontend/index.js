@@ -3,13 +3,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './northgrove-logo.png';
-import './index.css';
+import './index.less';
 
 const App = () => (
-  <div className="App">
-    <img className="App-Logo" src={logo} alt="React Logo" />
-    <h1 className="App-Title">www.northgrove.no</h1>
+  <div className="wrapper">
+  <header>
+
+    <div className="header" >
+    <img className="menuleft" src={logo} width="22" height="22"></img>
+      <div className="menuright">Login</div>
+    </div>
+  </header>
+  <main>
+    <center>
+    <img className="logo" src={logo} alt="React Logo" /><br></br>
+    <h1 className="logo">www.northgrove.no</h1>
+    </center>
+  </main>
   </div>
+
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));

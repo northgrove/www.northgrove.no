@@ -2,6 +2,7 @@
 
 
 const express = require('express')
+const hemlet = require('helmet')
 const app = express()
 
 
@@ -9,6 +10,8 @@ const app = express()
 app.get('/isalive', (req, res) => {
   res.send('OK').status(200)
 })
+
+app.use(helmet())
 
 app.use('/', express.static('./dist'))
 
