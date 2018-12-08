@@ -10,16 +10,25 @@ const App = () => (
   <header>
 
     <div className="header" >
-    <img className="menuleft" src={logo} width="22" height="22"></img>
-      <div className="menuright">Login</div>
+      <img className="menuleft" src={logo} width="22" height="22"></img>
+      <i className="fa fa-sign-in fa-2x menuright" />
     </div>
   </header>
   <main>
-    <center>
-    <img className="logo" src={logo} alt="React Logo" /><br></br>
-    <h1 className="logo">www.northgrove.no</h1>
-    </center>
+    <div className="main">
+      <center>
+        <img className="logo" src={logo} /><br></br>
+        <h1 >www.northgrove.no</h1>
+      </center>
+    </div>
   </main>
+  <tull>
+    <div className="tull">
+       <div className="jau"> Contact: kjetil@northgrove.no</div>
+    </div>
+  </tull>
+
+
   </div>
 
 );

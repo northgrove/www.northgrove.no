@@ -1,12 +1,12 @@
 
-  @import '../node_modules/@fortawesome/fontawesome-free/less/fontawesome';
+ @import '../node_modules/font-awesome/less/font-awesome';
 
   
   @border-color: #e7e7e7;
   @header-color: #2c6294;
   @font-color: #fafbfc;
 
-  html,
+  
   body {
     margin: 0;
     padding: 0;
@@ -17,15 +17,11 @@
     display: grid;
     height: 100vh;
     min-width: 375px;
-    grid-template-areas: 'header header header' 'navLeft navigation navRight' 'left main right';
+    grid-template-areas: 'header header header' 'navLeft navigation navRight' 'left main right' 'tull tull tull';
     grid-template-rows: 50px 50px 1fr;
     grid-template-columns: auto 1012px auto;
   }
   
-
-
- 
-
 
   header {
     background: @header-color;
@@ -36,8 +32,8 @@
     color: @font-color;
     float: right;
     margin: 10px;
-    
   }
+
   .menuleft {
     color: @font-color;
     float: left;
@@ -55,16 +51,22 @@
     
   }
   .logo {
-    
     margin: 20px;
-    
+    width: 150px;
+    height: 150px;
   } 
   .logo:hover {
     transform: rotate(1080deg);
   }
 
-  img {
-    transition: 3s;
-    height: 100px;
-    width: 100px;
+  tull {
+    background: #2c6294;
+    grid-area: tull;
+    display: block;
+  }
+  .jau {
+    color: #e7e7e7;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 3px;
   }
