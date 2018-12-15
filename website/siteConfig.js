@@ -39,9 +39,10 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
+    //{doc: 'doc4', label: 'API'},
+    //{page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
+    {search: true },
   ],
 
   // If you have users set above, you add it here:
@@ -101,6 +102,13 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
+
+
+  enableUpdateTime: true,
+  enableUpdateBy: true,
+  facebookAppId: 341163786698427,
+  twitter: true,
+  facebookPixelId: 551187012013880,
 };
 
 module.exports = siteConfig;

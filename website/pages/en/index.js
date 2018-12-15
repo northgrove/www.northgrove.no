@@ -60,14 +60,15 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/docusaurus.svg`} />
+        <Logo img_src={`${baseUrl}img/N-logo-tr2.png`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
+           {/* <Button href="#try">Try It Out</Button> */}
+            <Button href={docUrl('doc1')}>Docs</Button>
+            <Button href="/blog">Blog</Button>
             <Button href="#about">About</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href="#who">Who</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -120,10 +121,24 @@ class Index extends React.Component {
         {[
           {
             content:
-              'The Northgrove univers is an example setup as an company with full Modern Workplace setup. Utilizing Azure AD, Office 365, Intune and more.',
-            image: `${baseUrl}img/N-logo-tr2.png`,
+              'The Northgrove univers is an example setup as an company with full Modern Workplace functionality utilizing Azure AD, Office 365, Intune and more.',
+            image: `${baseUrl}img/N-logo-tr2.png`, 
             imageAlign: 'right',
             title: 'About',
+          },
+        ]}
+      </Block>
+    );
+
+    const Who = () => (
+      <Block background="light" id="who">
+        {[
+          {
+            content:
+              'Working as a Technology Solutions Profesional - Modern Workplace at Microsoft Norway.',
+           /* image: `${baseUrl}img/N-logo-tr2.png`, 
+          imageAlign: 'right', */
+            title: 'Kjetil Nordlund',
           },
         ]}
       </Block>
@@ -142,6 +157,7 @@ class Index extends React.Component {
       </Block>
     );
 
+    
     const Features = () => (
       <Block layout="fourColumn">
         {[
@@ -161,6 +177,7 @@ class Index extends React.Component {
       </Block>
     );
 
+      
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -194,12 +211,13 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
+         {/* <Features />
           <FeatureCallout />
           <LearnHow />
-          <TryOut />
+         <TryOut /> */}
           <Description />
-          <Showcase />
+          <Who />
+         {/* <Showcase /> */}
         </div>
       </div>
     );
