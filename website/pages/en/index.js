@@ -65,7 +65,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
            {/* <Button href="#try">Try It Out</Button> */}
-            <Button href={docUrl('doc1')}>Docs</Button>
+            <Button href={docUrl('Login-to-your-JavaScript-application-with-Azure-AD')}>Docs</Button>
             <Button href="/blog">Blog</Button>
             <Button href="#about">About</Button>
             <Button href="#who">Who</Button>
@@ -123,7 +123,7 @@ class Index extends React.Component {
             content:
               'The Northgrove univers is an example setup as an company with full Modern Workplace functionality utilizing Azure AD, Office 365, Intune and more.',
             image: `${baseUrl}img/N-logo-tr2.png`, 
-            imageAlign: 'right',
+            imageAlign: 'left',
             title: 'About',
           },
         ]}
@@ -135,9 +135,9 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Working as a Technology Solutions Profesional - Modern Workplace at Microsoft Norway.',
-           /* image: `${baseUrl}img/N-logo-tr2.png`, 
-          imageAlign: 'right', */
+              'Working as a Modern Workplace Technology Solutions Profesional at Microsoft Norway.',
+            image: `${baseUrl}img/Kjetil_Nordlund.JPG`, 
+            imageAlign: 'right', 
             title: 'Kjetil Nordlund',
           },
         ]}
@@ -162,16 +162,22 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: 'Idenity is the new control plane. Secure it. Make it easier.',
+            image: `${baseUrl}img/aad.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Azure AD',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: 'How to give the employees the opurtunity to utilize all the modern technology, on a secure way',
+            image: `${baseUrl}img/intune.png`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Modern Workplace',
+          },
+          {
+            content: 'Securly publish applications to a modern workplace',
+            image: `${baseUrl}img/zerotrust.png`,
+            imageAlign: 'top',
+            title: 'Zero trust networking',
           },
         ]}
       </Block>
@@ -211,8 +217,8 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-         {/* <Features />
-          <FeatureCallout />
+         <Features />
+         {/* <FeatureCallout />
           <LearnHow />
          <TryOut /> */}
           <Description />

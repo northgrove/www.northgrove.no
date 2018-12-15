@@ -1,8 +1,9 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Azure AD": ["Login-to-your-JavaScript-application-with-Azure-AD", "doc1"],
+    "Modern Workplace": ["doc2"],
+    "Zero Trust networking": ["doc3"],
+    "Script samples": []
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
