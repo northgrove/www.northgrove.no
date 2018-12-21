@@ -1,3 +1,5 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/e7140fd3-0fa2-42cf-bb3f-1d67548ec925/resourceGroups/NorthgroveNO/providers/Microsoft.Web/sites/NorthgroveNO",
+    "appService.deploySubpath": "website\\build\\www.northgrove.no"
 }

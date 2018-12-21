@@ -50,7 +50,7 @@ class Footer extends React.Component {
           </div>
           */}
           <div>
-            <h5>Social</h5>
+            <h5>On social media</h5>
   {/*          <a href={this.pageUrl('users.html', this.props.language)}>
               User Showcase
             </a>
@@ -81,12 +81,12 @@ class Footer extends React.Component {
             <a href="https://github.com/Northgrove">GitHub</a>
             <a
               className="github-button"
-              href={this.props.config.repoUrl}
+              href="https://github.com/northgrove/www.northgrove.no" //{this.props.config.repoUrl}
               data-icon="octicon-star"
-              data-count-href="/facebook/docusaurus/stargazers"
+              data-count-href="/northgrove/www.northgrove.no/stargazers"
               data-show-count="true"
               data-count-aria-label="# stargazers on GitHub"
-              aria-label="Star this project on GitHub">
+              aria-label="Star northgrove/www.northgrove.no on GitHub">
               Star
             </a>
           </div>

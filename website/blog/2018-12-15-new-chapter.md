@@ -6,4 +6,4 @@ authorFBID: 713612095
 ---
 
 # A new chapter is starting
-From january 2019 i will be working as a Technology Solutions Professional in Microsoft.
+

@@ -30,8 +30,8 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'example company test site',
-  organizationName: 'Northgrove',
+  projectName: 'www.northgrove.no',
+  organizationName: 'northgrove',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -109,6 +109,8 @@ const siteConfig = {
   facebookAppId: 341163786698427,
   twitter: true,
   facebookPixelId: 551187012013880,
+  repoUrl: "https://github.com/northgrove/www.northgrove.no",
+  editUrl: "https://github.com/northgrove/www.northgrove.no/edit/master/docs/"
 };
 
 module.exports = siteConfig;

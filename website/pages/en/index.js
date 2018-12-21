@@ -222,7 +222,7 @@ class Index extends React.Component {
           <LearnHow />
          <TryOut /> */}
           <Description />
-          <Who />
+          {/* <Who /> */}
          {/* <Showcase /> */}
         </div>
       </div>
