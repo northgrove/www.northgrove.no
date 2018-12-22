@@ -135,7 +135,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Working as a Modern Workplace Technology Solutions Profesional at Microsoft Norway.',
+              'Solution Architect Modern Workplace',
             image: `${baseUrl}img/Kjetil_Nordlund.JPG`, 
             imageAlign: 'right', 
             title: 'Kjetil Nordlund',
@@ -222,7 +222,7 @@ class Index extends React.Component {
           <LearnHow />
          <TryOut /> */}
           <Description />
-          {/* <Who /> */}
+           <Who />
          {/* <Showcase /> */}
         </div>
       </div>
