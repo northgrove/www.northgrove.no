@@ -25,6 +25,7 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
+        
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
@@ -49,6 +50,7 @@ class Footer extends React.Component {
             </a>
           </div>
           */}
+          
           <div>
             <h5>On social media</h5>
   {/*          <a href={this.pageUrl('users.html', this.props.language)}>
@@ -74,6 +76,7 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Facebook
             </a>
+
           </div>
           <div>
             <h5>More</h5>
@@ -90,6 +93,7 @@ class Footer extends React.Component {
               Star
             </a>
           </div>
+
         </section>
 
         <section className="copyright">{this.props.config.copyright}</section>

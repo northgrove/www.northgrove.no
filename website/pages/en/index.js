@@ -65,10 +65,10 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
            {/* <Button href="#try">Try It Out</Button> */}
-            <Button href={docUrl('Login-to-your-JavaScript-application-with-Azure-AD')}>Docs</Button>
-            <Button href="/blog">Blog</Button>
-            <Button href="#about">About</Button>
-            <Button href="#who">Who</Button>
+            <Button href={docUrl('Login-to-your-JavaScript-application-with-Azure-AD')}>Dokumenter</Button>
+            <Button href="/blog">Blogg</Button>
+            <Button href="#about">Om</Button>
+            <Button href="#who">Hvem</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -130,19 +130,26 @@ class Index extends React.Component {
       </Block>
     );
 
-    const Who = () => (
-      <Block background="light" id="who">
-        {[
-          {
-            content:
+    /*
+                content: 
               'Solution Architect Modern Workplace',
             image: `${baseUrl}img/Kjetil_Nordlund.JPG`, 
             imageAlign: 'right', 
             title: 'Kjetil Nordlund',
+    */
+    const Who = () => (
+     <Block background="light" id="who">
+
+                  {[
+          {
+
           },
         ]}
       </Block>
+
+
     );
+
 
     const LearnHow = () => (
       <Block background="light">
@@ -222,7 +229,11 @@ class Index extends React.Component {
           <LearnHow />
          <TryOut /> */}
           <Description />
-           <Who />
+          <center>
+            <br />
+            <div className="LI-profile-badge" data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="kjetilnordlund"><a className="LI-simple-link" href='https://no.linkedin.com/in/kjetilnordlund?trk=profile-badge'>Kjetil Nordlund</a></div>
+</center>
+          {/* <Hvem /> */}
          {/* <Showcase /> */}
         </div>
       </div>

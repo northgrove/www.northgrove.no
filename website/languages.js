@@ -9,7 +9,7 @@ const languages = [
   {
     enabled: true,
     name: 'English',
-    tag: 'en',
+    tag: 'en-US',
   },
   {
     enabled: false,
@@ -114,7 +114,7 @@ const languages = [
   {
     enabled: true,
     name: 'Norsk',
-    tag: 'no-NO',
+    tag: 'en',
   },
   {
     enabled: false,

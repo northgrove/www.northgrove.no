@@ -1,7 +1,7 @@
 {
   "docs": {
     "Azure AD": ["Login-to-your-JavaScript-application-with-Azure-AD", "doc1"],
-    "Modern Workplace": ["doc2"],
+    "Modern Workplace": ["kom-i-gang-med-modern-workplace"],
     "Zero Trust networking": ["doc3"],
     "Script samples": []
   },
